@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Notebook</string>
+    <string name="kazan">Казань</string>
+    <string name="ekb">Екатеринбург</string>
+    <string name="nn">Нижний Новгород</string>
+    <string name="novosib">Новосибирск</string>
 </resources>
