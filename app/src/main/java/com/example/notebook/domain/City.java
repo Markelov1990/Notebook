@@ -3,9 +3,14 @@ package com.example.notebook.domain;
 import androidx.annotation.DrawableRes;
 
 public class City {
-    private String name;
-    private @DrawableRes
-    int icon;
+    private final String name;
+    @DrawableRes
+    private final int icon;
+
+    public City(String name, int icon) {
+        this.name = name;
+        this.icon = icon;
+    }
 
     public int getIcon() {
         return icon;
